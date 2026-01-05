@@ -11,7 +11,7 @@ namespace testdatabase
     public partial class AdminPage : ContentPage
     {
         private bool isSidebarVisible = false;
-        private readonly string connStr = "server=192.168.176.213;user=root;password=oneinamillion;database=smartdb;";
+        private readonly string connStr = "server=IP;user=root;password=;database=smartdb;";
         private ObservableCollection<UserModel> userList = new();
         private System.Timers.Timer refreshTimer;
         private bool isSettingsExpanded = false;

@@ -131,9 +131,9 @@ class DatabaseManager:
         """Connect to database."""
         try:
             self.connection = mysql.connector.connect(
-                host="192.168.8.36",
+                host="IP",
                 user="root",
-                password="oneinamillion",
+                password="",
                 database="Smartdb",
                 connection_timeout=5,
                 autocommit=True

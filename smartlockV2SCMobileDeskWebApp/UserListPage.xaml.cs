@@ -16,7 +16,7 @@ public partial class UserListPage : ContentPage
 
     private async void LoadUsers()
     {
-        string connStr = "server=localhost;user=root;password=;database=smartdb;";
+        string connStr = "server=IP;user=root;password=;database=smartdb;";
         using MySqlConnection conn = new(connStr);
 
         try

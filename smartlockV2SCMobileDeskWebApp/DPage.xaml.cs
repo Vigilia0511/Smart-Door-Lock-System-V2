@@ -16,7 +16,7 @@ namespace testdatabase
         private System.Timers.Timer _refreshTimer;
         private System.Timers.Timer _approvalCheckTimer; // New timer for checking approval status
         private ObservableCollection<string> _notifications = new();
-        private readonly string _connStr = "server=192.168.176.213;user=root;password=oneinamillion;database=smartdb;";
+        private readonly string _connStr = "server=IP;user=root;password=;database=smartdb;";
         private Random _random = new Random();
         private string _loggedInUser = string.Empty;
         private bool isSettingsExpanded = false;

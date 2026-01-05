@@ -12,7 +12,7 @@ namespace testdatabase
 {
     public partial class UserRegisterPage : ContentPage
     {
-        string connStr = "server=192.168.176.213;user=root;password=oneinamillion;database=smartdb;";
+        string connStr = "server=IP;user=root;password=;database=smartdb;";
 
         public UserRegisterPage()
         {

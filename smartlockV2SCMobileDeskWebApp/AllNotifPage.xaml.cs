@@ -13,7 +13,7 @@ namespace testdatabase
     public partial class AllNotifPage : ContentPage
     {
         private readonly Dictionary<Label, int> badgeCountDict = new();
-        private readonly string _connStr = "server=192.168.176.213;user=root;password=oneinamillion;database=smartdb;";
+        private readonly string _connStr = "server=IP;user=root;password=;database=smartdb;";
         private System.Timers.Timer _pollingTimer;
         private DateTime _lastFetched = DateTime.MinValue;
         private bool _isLoading = false;

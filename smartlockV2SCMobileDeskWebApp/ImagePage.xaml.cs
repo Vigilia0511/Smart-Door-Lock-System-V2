@@ -16,7 +16,7 @@ namespace testdatabase
     public partial class ImagePage : ContentPage
     {
         bool isSidebarVisible = false;
-        private readonly string _connStr = "server=192.168.176.213;user=root;password=oneinamillion;database=smartdb;";
+        private readonly string _connStr = "server=IP;user=root;password=;database=smartdb;";
         private System.Timers.Timer _refreshTimer;
         private DateTime _lastImageTimestamp = DateTime.MinValue;
         private int _lastImageCount = 0;
